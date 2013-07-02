@@ -1,0 +1,4 @@
+mpNZB
+=====
+
+mpNZB MediaPortal plugin
