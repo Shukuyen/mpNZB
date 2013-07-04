@@ -109,4 +109,5 @@ UpgradeLog*.XML
 
 
 # mpNZB related
-*bin/
+mpNZB/bin/
+mpNZB/obj/
