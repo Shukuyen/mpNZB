@@ -200,7 +200,7 @@ Click Next to continue or Cancel to exit Setup.</Value>
     <Author>Dustin Brett</Author>
     <HomePage>http://code.google.com/p/mpnzb/</HomePage>
     <ForumPage>http://forum.team-mediaportal.com/mpnzb-458/</ForumPage>
-    <UpdateUrl>https://raw.github.com/Shukuyen/mpNZB/develop/Installer/update.xml</UpdateUrl>
+    <UpdateUrl>https://raw.github.com/Shukuyen/mpNZB/master/Installer/update.xml</UpdateUrl>
     <Version>
       <Major>1</Major>
       <Minor>5</Minor>
@@ -212,7 +212,7 @@ Click Next to continue or Cancel to exit Setup.</Value>
 Skin file for Titan (Thanks, pvkleeff)
 Updated sites.xml (Thanks, D3ltoroxp)</VersionDescription>
     <DevelopmentStatus>Stable</DevelopmentStatus>
-    <OnlineLocation>http://mpnzb.googlecode.com/files/mpNZB_1.5.5.mpe1</OnlineLocation>
+    <OnlineLocation>https://github.com/Shukuyen/mpNZB/releases/1.5.5/2582/mpNZB_1.5.5.mpe1</OnlineLocation>
     <ReleaseDate>2012-01-06T19:01:12</ReleaseDate>
     <Tags>nzb,usenet,sabnzb</Tags>
     <Location>D:\Documents\mpNZB_1.5.5.mpe1</Location>
