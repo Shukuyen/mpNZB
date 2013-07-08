@@ -44,7 +44,7 @@ namespace mpNZB
     protected GUIButtonControl btnHistory = null;    
 
     [SkinControlAttribute(6)]
-    protected GUIToggleButtonControl btnPause = null;
+    protected GUICheckButton btnPause = null;
 
     [SkinControlAttribute(50)]
     protected GUIListControl lstItems = null;
