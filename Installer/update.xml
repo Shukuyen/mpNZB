@@ -74,22 +74,22 @@
         <Author>Dustin Brett</Author>
         <HomePage>http://code.google.com/p/mpnzb/</HomePage>
         <ForumPage>http://forum.team-mediaportal.com/mpnzb-458/</ForumPage>
-        <UpdateUrl>http://mpnzb.googlecode.com/svn/update.xml</UpdateUrl>
+        <UpdateUrl>https://raw.github.com/Shukuyen/mpNZB/develop/Installer/update.xml</UpdateUrl>
         <Version>
           <Major>1</Major>
           <Minor>5</Minor>
-          <Build>4</Build>
+          <Build>5</Build>
           <Revision>0</Revision>
         </Version>
         <ExtensionDescription>mpNZB is a plug-in for MediaPortal that allows you to download NZB's from multiple sources (Feeds/Groups/Search). Then using SABnzbd it downloads those files from a Usenet provider such as Supernews.</ExtensionDescription>
-        <VersionDescription>You can now use a https connection (see setup).
-
-DISCLAIMER: the plugin blindly accepts all ssl certificates, this opens up the possiblity of man in the middle attacks. Please be aware of that when using https connections.</VersionDescription>
+        <VersionDescription>Compatible with MediaPortal 1.4
+Skin file for Titan (Thanks, pvkleeff)
+Updated sites.xml (Thanks, D3ltoroxp)</VersionDescription>
         <DevelopmentStatus>Stable</DevelopmentStatus>
-        <OnlineLocation>http://mpnzb.googlecode.com/files/mpNZB_1.5.4.mpe1</OnlineLocation>
+        <OnlineLocation>http://mpnzb.googlecode.com/files/mpNZB_1.5.5.mpe1</OnlineLocation>
         <ReleaseDate>2012-01-06T19:01:12</ReleaseDate>
         <Tags>nzb,usenet,sabnzb</Tags>
-        <Location>D:\Documents\mpNZB_1.5.4.mpe1</Location>
+        <Location>D:\Documents\mpNZB_1.5.5.mpe1</Location>
         <Params>
           <Items>
             <SectionParam Name="Online Icon">
