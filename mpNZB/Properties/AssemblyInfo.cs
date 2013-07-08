@@ -8,7 +8,7 @@ using MediaPortal.Common.Utils;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("mpNZB")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("MediaPortal SABnzbd plugin")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("mpNZB")]
