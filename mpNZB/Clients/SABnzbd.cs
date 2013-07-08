@@ -29,6 +29,13 @@ namespace mpNZB.Clients
       set { _Paused = value; }
     }
 
+    private string _QueueStatus;
+    public string QueueStatus
+    {
+        get { return _QueueStatus; }
+        set { _QueueStatus = value; }
+    }
+
     public int ActiveView
     {
         get;
@@ -269,12 +276,14 @@ namespace mpNZB.Clients
         {
           int intJobCount = int.Parse(xmlDoc.SelectSingleNode("queue/noofslots").InnerText);
           _Paused = bool.Parse(xmlDoc.SelectSingleNode("queue/paused").InnerText);
+          _QueueStatus = xmlDoc.SelectSingleNode("queue/state").InnerText;
 
           if (Visible)
           {
             NumberFormatInfo nfi = new CultureInfo("en-US", false).NumberFormat;
 
             GUIPropertyManager.SetProperty("#Paused", _Paused.ToString());
+            GUIPropertyManager.SetProperty("#QueueStatus", _QueueStatus);
             GUIPropertyManager.SetProperty("#KBps", ((intJobCount != 0) ? double.Parse(xmlDoc.SelectSingleNode("queue/kbpersec").InnerText, nfi).ToString("N2") : (0.0).ToString("N2")) + " KB/s");
             GUIPropertyManager.SetProperty("#MBStatus", double.Parse(xmlDoc.SelectSingleNode("queue/mbleft").InnerText, nfi).ToString("N2") + " / " + double.Parse(xmlDoc.SelectSingleNode("queue/mb").InnerText, nfi).ToString("N2") + " MB");
             GUIPropertyManager.SetProperty("#JobCount", intJobCount.ToString());

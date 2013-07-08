@@ -222,12 +222,12 @@
 			</control>
 		</control>		
 		<control>
-			<description>Paused</description>
+			<description>Status</description>
 			<type>label</type>
 			<id>8</id>
 			<posX>220</posX>
 			<posY>220</posY>
-			<label>Paused:</label>
+			<label>Status:</label>
 			<align>Right</align>
 			<font>font12</font>
 			<textcolor>ffa9d0f7</textcolor>
@@ -235,12 +235,12 @@
 			<animation effect="fade" time="70" reversible="false">visible</animation>
 		</control>
 		<control>
-			<description>Paused</description>
+			<description>Status</description>
 			<type>label</type>
 			<id>9</id>
 			<posX>227</posX>
 			<posY>220</posY>
-			<label>#Paused</label>
+			<label>#QueueStatus</label>
 			<align>Left</align>
 			<textcolor>aaffffff</textcolor>
 			<visible>Control.HasFocus(50)</visible>
